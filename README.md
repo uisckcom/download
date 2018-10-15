@@ -82,7 +82,7 @@ It specifies the contents and name of a new file placed in the browser's downloa
 
 ### Binary Files
 #### image from URL  -  [live demo](http://pagedemos.com/yvvmxbjrwq7u/output/)
-    download("/diff6.png");
+    download("http://icon.uisck.com/wp-content/uploads/uisckiconsvg/uisck-1153173.svg");
 
 #### Image via ajax for custom filename - [live demo](http://pagedemos.com/v2848zfgwrju/output/)
 	var x=new XMLHttpRequest();
