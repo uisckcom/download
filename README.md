@@ -86,7 +86,7 @@ It specifies the contents and name of a new file placed in the browser's downloa
 
 #### Image via ajax for custom filename - [live demo](http://pagedemos.com/v2848zfgwrju/output/)
 	var x=new XMLHttpRequest();
-	x.open( "GET", "/diff6.png" , true);
+	x.open( "GET", "http://icon.uisck.com/wp-content/uploads/uisckiconsvg/uisck-1153173.svg" , true);
 	x.responseType="blob";
 	x.onload= function(e){download(e.target.response, "awesomesauce.png", "image/png");};
 	x.send();
